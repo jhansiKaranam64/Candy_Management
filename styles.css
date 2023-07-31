@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: auto;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.6;
+}
+.container{
+    margin: auto;
+    width: 100px;
+    overflow: auto;
+    padding: 1%;
+}
+header{
+    background: #f4f4f4;
+    padding: 1rem 2rem;
+    text-align: center;
+}
+.list-group-item{
+    border: solid rgba(95, 90, 90, 0.089);
+    padding: 2px 2px;
+    background-color: bisque;
+}
+.error{
+    background: orangered;
+    color: #fff;
+    padding: 5px;
+    margin: 5px;
+}
+ul{
+    list-style: circle;
+}
+.float-right{
+    float:right !important;
+    padding: 1%;
+}
